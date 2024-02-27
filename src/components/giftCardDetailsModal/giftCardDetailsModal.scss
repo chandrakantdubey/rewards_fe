@@ -1,0 +1,17 @@
+.giftCardDetailsModal {
+  .cds--modal-content {
+    padding: 0 2rem 2rem 2rem !important;
+    @media (max-width: 768px) {
+      padding: 0 1rem 1rem 1rem !important;
+    }
+  }
+  .giftCardDetailsModalLogo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .cds--slider-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}

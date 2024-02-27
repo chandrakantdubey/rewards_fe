@@ -1,0 +1,60 @@
+.reward__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  border-radius: 1.25rem;
+  width: 400px;
+  height: 240px;
+  box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.6);
+
+  .reward__card__top {
+    display: flex;
+    padding-bottom: 1.5rem;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  .reward__card__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  .reward__card__center div {
+    width: 80px;
+    height: 80px;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .reward__card__bottom {
+    display: flex;
+    padding-top: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  @media (max-width: 768px) {
+    padding: 0.75rem 1rem;
+    height: 210px;
+    width: 300px;
+    .reward__card__top {
+      padding-bottom: 0.5rem;
+    }
+    .reward__card__bottom {
+      padding-top: 0.5rem;
+    }
+
+    .reward__card__center div {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

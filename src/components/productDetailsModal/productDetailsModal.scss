@@ -1,0 +1,28 @@
+.productDetailsModal {
+  .cds--modal-content {
+    padding: 3rem 4rem 2rem 4rem !important;
+    @media (max-width: 42rem) {
+      padding: 0 1rem 1rem 1rem !important;
+    }
+  }
+  .cds--modal-header {
+    margin: 0;
+    @media (max-width: 42rem) {
+      padding: 2rem;
+    }
+  }
+  .label {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+  .productDetailsContent {
+    position: "sticky";
+    top: 0;
+    @media (max-width: 42rem) {
+      gap: 2rem;
+    }
+  }
+  .cds--col-sm-3 {
+    padding-right: 0;
+  }
+}

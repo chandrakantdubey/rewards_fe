@@ -1,0 +1,99 @@
+.header__panel__width {
+  .cds--header-panel--expanded {
+    height: max-content;
+    inline-size: auto !important;
+    width: 100%;
+    background: transparent !important;
+  }
+}
+
+.uvation__header {
+  &.cds--header {
+    background: #000;
+    color: white;
+  }
+  .cds--search--lg {
+    box-shadow: none;
+    outline: none;
+    input {
+      outline: none;
+    }
+  }
+  .cds--popover--open span span {
+    background: #000;
+    color: white;
+  }
+
+  span.notification_count {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background: #da1e28;
+    border-radius: 100%;
+    height: 22px;
+    padding: 1px;
+    width: 22px;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 12px;
+  }
+}
+
+.cds--header-panel {
+  border: none !important;
+}
+
+.cds--contained-list__header {
+  display: none !important;
+}
+
+.cds--side-nav__divider {
+  margin: 8px 0 !important;
+  width: "100%";
+}
+
+.cds--side-nav__item {
+  list-style-type: none;
+}
+
+.user__account__sidenav {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 1rem;
+  gap: 1.5rem;
+  .user__account__image {
+    height: 50px;
+    width: 50px;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+  .user__account__details {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.7rem;
+    .accountId {
+      display: flex;
+      flex-direction: row;
+    }
+    .accountId {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      color: rgb(119, 166, 255) !important;
+      button {
+        background-color: transparent;
+        svg {
+          fill: rgb(119, 166, 255);
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.cds--content {
+  margin-top: 48px;
+  min-height: 100vh;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-style: normal;
+  line-height: normal;
+  .main-grid {
+    max-width: 1920px !important;
+    padding: 0 !important;
+  }
+  @media (min-width: 66rem) {
+    margin-left: 3rem;
+  }
+  @media (max-width: calc(66rem - 1px)) {
+    padding: 2rem 1rem !important;
+  }
+  @media (max-width: 42rem) {
+    padding: 2rem 1rem !important;
+  }
+}

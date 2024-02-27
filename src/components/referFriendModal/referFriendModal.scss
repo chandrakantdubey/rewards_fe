@@ -1,0 +1,26 @@
+.referFriendModal {
+  .cds--modal-content {
+    padding: 0 2rem 2rem 2rem !important;
+    @media (max-width: 768px) {
+      padding: 0 1rem 1rem 1rem !important;
+    }
+  }
+  .cds--modal-header {
+    padding: 2rem 2rem 2rem 2rem;
+    margin: 0;
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .cds--modal-close {
+    top: 1.5rem;
+    right: 1.5rem;
+  }
+  .label {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+}

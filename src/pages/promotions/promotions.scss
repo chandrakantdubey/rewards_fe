@@ -1,0 +1,31 @@
+.promotion__title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+
+.promotion__slider {
+  padding: 0 2rem !important;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+
+  .swiper {
+    padding: 2rem 0 !important;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0 1rem !important;
+
+    .swiper {
+      padding: 1rem 0 1.5rem !important;
+    }
+  }
+}
+
+.sb-tooltip-trigger {
+  padding: 0;
+  border: none;
+  margin: 0;
+  background-color: transparent;
+}

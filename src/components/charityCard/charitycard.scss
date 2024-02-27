@@ -1,0 +1,64 @@
+.charity__card {
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  // background: #fff;
+  box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  margin: auto;
+}
+.charity__card .charity__card__img {
+  text-align: center;
+  height: 162px;
+  align-self: stretch;
+}
+.charity__card .charity__card__img img {
+  &.preferred {
+    width: 100%;
+  }
+  // width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 162px;
+}
+.charity__card .charity__card__info {
+  display: flex;
+  padding: 32px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+.charity__card .charity__card__info__title {
+  color: var(--cds-text-primary);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.2px;
+}
+.charity__card .charity__card__info__description {
+  color: var(--cds-text-primary);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  letter-spacing: 0.8px;
+}
+.charity__card .charity__card__buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  max-width: 100%;
+  contain: content;
+  overflow: hidden;
+  .cds--btn {
+    min-width: 50%;
+  }
+}

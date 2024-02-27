@@ -1,0 +1,14 @@
+.charity__page {
+  .cds--search,
+  .cds--select {
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .cds--select-input__wrapper .cds--select-input {
+    height: 3rem;
+    border: 0;
+    // background: #fff;
+  }
+  .cds--search input {
+    border: 0;
+  }
+}

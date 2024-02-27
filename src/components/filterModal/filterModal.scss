@@ -1,0 +1,30 @@
+.filter__modal {
+  display: inline-flex;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  background-blend-mode: multiply;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.filter__modal__icons {
+  display: flex;
+  height: 1rem;
+  background-blend-mode: multiply;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+.filter__modal__icons span {
+  cursor: pointer;
+}
+.filter__modal__dropdown {
+  display: flex;
+  width: 288px;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: multiply;
+}
+.filter__modal .cds--dropdown__wrapper {
+  width: 100%;
+}

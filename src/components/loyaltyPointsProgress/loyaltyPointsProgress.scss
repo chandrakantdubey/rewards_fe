@@ -1,0 +1,10 @@
+.cds--progress-bar__label-text {
+  font-size: 14px;
+}
+.cds--progress-bar__bar,
+.cds--progress-bar__track {
+  height: 8px !important;
+}
+.cds--progress-bar__bar {
+  background: linear-gradient(90deg, #466abc 0%, #49295a 128.4%);
+}

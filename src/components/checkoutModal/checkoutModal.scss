@@ -1,0 +1,26 @@
+.checkoutModal {
+  .cds--modal-content {
+    padding: 0 1rem 3rem 1rem !important;
+    @media (max-width: 768px) {
+      padding: 0 1rem 1rem 1rem !important;
+    }
+  }
+  .cds--modal-header {
+    padding: 1rem;
+    margin: 0;
+    h3 {
+      font-size: 1.25rem;
+      font-weight: 500;
+      margin: 0;
+      padding: 0;
+    }
+  }
+  .cds--modal-close {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+  .label {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+}

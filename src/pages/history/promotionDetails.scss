@@ -1,0 +1,22 @@
+.promotion-details {
+  .order-promotion-image {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    img,
+    svg {
+      margin: auto;
+      max-width: 100%;
+    }
+  }
+  .order-details {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    row-gap: 2rem;
+    margin: 1rem 0;
+  }
+  .free-product-radio {
+    top: 1rem;
+    right: 1rem;
+  }
+}

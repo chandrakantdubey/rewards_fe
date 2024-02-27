@@ -1,0 +1,54 @@
+.marketplace__filter {
+  background-blend-mode: multiply;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  min-height: 3rem;
+  min-width: 3rem;
+}
+.cds--tab-content {
+  padding: 0 !important;
+  margin-top: 1.5rem;
+}
+
+.cds--tabs {
+  .cds--tab--list {
+    width: 100% !important;
+  }
+  button.cds--tabs__nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  button.cds--tab--overflow-nav-button--previous {
+    display: none;
+    svg {
+      display: none;
+    }
+  }
+}
+
+.marketplace__search__button {
+  min-width: 100%;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.marketplace__search__button.cds--btn {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.cds--search,
+.cds--select {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.cds--select-input__wrapper .cds--select-input {
+  height: 3rem;
+  border: 0;
+}
+.cds--search input {
+  border: 0;
+}
+
+select {
+  font-family: "IBM Plex Sans";
+}

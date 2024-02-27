@@ -1,0 +1,53 @@
+.swiper-slide {
+  display: flex;
+  width: 300px;
+  height: 400px;
+
+  @media (max-width: 480px) {
+    width: 100%;
+    // height: 100%;
+  }
+
+  .swiper__slide {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: normal;
+    letter-spacing: 0.32px;
+    font-style: normal;
+    // @media (max-width: 480px) {
+    //   padding: 1rem;
+    // }
+  }
+
+  .promotion__card__top {
+    display: flex;
+    height: 101px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    flex-shrink: 0;
+    align-self: stretch;
+  }
+
+  .promotion__card__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    align-self: stretch;
+  }
+
+  .promotion__card__bottom__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+  }
+
+  .promotion__card__bottom__progress {
+    width: 100%;
+  }
+}

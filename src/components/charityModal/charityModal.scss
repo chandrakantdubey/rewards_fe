@@ -1,0 +1,53 @@
+.charityModal {
+  .cds--modal-content {
+    padding: 0 2rem 2rem 2rem !important;
+    @media (max-width: 768px) {
+      padding: 0 1rem 1rem 1rem !important;
+    }
+  }
+  .cds--modal-header {
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+  }
+  .label {
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+  .charityModalLogo {
+    height: 200px;
+    padding: 0;
+    width: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .cds--slider-container {
+    width: 100%;
+    max-width: 100%;
+    #sliderValue-input-for-slider {
+      width: min-content;
+      text-align: center;
+      border-bottom: 0;
+    }
+  }
+
+  .cds--modal-footer {
+    padding: 0;
+    margin: 0;
+    height: 3rem;
+    .cds--btn-set {
+      min-width: 100%;
+      .cds--btn {
+        min-width: 50%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        gap: 0.5rem;
+        align-items: center;
+        padding: 1rem;
+      }
+    }
+  }
+}

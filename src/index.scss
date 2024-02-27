@@ -1,0 +1,13 @@
+// @use "@carbon/react" with (
+//   $use-flexbox-grid: true
+// );
+@use "@carbon/react";
+@use "@carbon/styles";
+@use "@carbon/grid";
+@use "@carbon/themes";
+@import "@carbon/layout";
+@import "@carbon/colors";
+@import "@carbon/feature-flags";
+@import "@carbon/motion";
+@import "@carbon/type";
+@include grid.flex-grid();

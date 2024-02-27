@@ -1,0 +1,26 @@
+.select__tile {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  cursor: pointer;
+
+  .select__tile__img {
+    background-color: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: none;
+    justify-content: center;
+  }
+  .select__tile__img img {
+    width: 100%;
+    max-height: 250px;
+    height: 100%;
+    object-fit: contain;
+  }
+  .select__tile__title {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
